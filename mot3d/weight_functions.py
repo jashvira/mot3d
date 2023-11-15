@@ -30,8 +30,9 @@ def weight_distance_detections_2d(d1, d2,
         bss = 1-df.bbox_size_similarity(d1.bbox, d2.bbox)
         weights.append( np.exp(-bss**2/sigma_box_size**2) )
     
-    jump = d1.diff_index(d2)
-    return -np.exp(-(jump-1)*sigma_jump) * np.prod(weights)
+    # jump = d1.diff_index(d2)
+    # return -np.exp(-(jump-1)*sigma_jump) * np.prod(weights)
+    return -np.prod(weights)
     #return -np.exp(-(jump-1)*a) * np.exp(-distance**2/sigma_distance**2)
     
 def weight_confidence_detections(detection, mul=1, bias=0):

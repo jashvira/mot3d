@@ -1,0 +1,3 @@
+/home/jash/Desktop/mot3d/mot3d/solvers/wrappers/muSSP/build/CMakeFiles/wrapper.dir
+/home/jash/Desktop/mot3d/mot3d/solvers/wrappers/muSSP/build/CMakeFiles/edit_cache.dir
+/home/jash/Desktop/mot3d/mot3d/solvers/wrappers/muSSP/build/CMakeFiles/rebuild_cache.dir
